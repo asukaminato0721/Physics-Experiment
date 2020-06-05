@@ -2,7 +2,6 @@ import 仪器1文件
 import 仪器2文件
 import 仪器3文件
 from tkinter import *
-from importlib import reload
 
 
 def 仪器1功能():
