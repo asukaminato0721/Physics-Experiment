@@ -1,15 +1,20 @@
+import 仪器1文件
+import 仪器2文件
+import 仪器3文件
 from tkinter import *
+from importlib import reload
+
 
 def 仪器1功能():
-    import 仪器1文件
+    仪器1文件.main()
 
 
 def 仪器2功能():
-    import 仪器2文件
+    仪器2文件.main()
 
 
 def 仪器3功能():
-    import 仪器3文件
+    仪器3文件.main()
 
 
 # ---------------------
@@ -52,7 +57,7 @@ def 仪器3功能():
                padx=10, pady=10, font="微软雅黑 15")
 仪器3按钮.grid_configure(row=2, column=1)
 # ---------------------------
-制作 = Label(主窗体,text="制作：wuyudi")
+制作 = Label(主窗体, text="制作：wuyudi")
 制作.grid_configure(row=5, column=3)
 主窗体.mainloop()
 
